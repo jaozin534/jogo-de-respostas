@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Perguntas e Respostas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Perguntas e Respostas</h1>
+        <div id="question-container">
+            <p id="question">Qual é a capital do Brasil?</p>
+        </div>
+        <div id="answers">
+            <button class="answer-btn">Brasília</button>
+            <button class="answer-btn">São Paulo</button>
+            <button class="answer-btn">Rio de Janeiro</button>
+            <button class="answer-btn">Belo Horizonte</button>
+        </div>
+        <p id="result"></p>
+        <button id="next-question-btn" onclick="nextQuestion()" style="display: none;">Próxima Pergunta</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
